@@ -1,11 +1,20 @@
+
 .mainBody{
     justify-content: center;
     text-align: center;
-    background-color: #a7b391;
     width: 500px;
     color: black;
     margin: 5px auto;
     padding: 20px;
     font-size: 18px;
-    
+    border: 3px;
+    border-color: #040e2b; 
+    border-style: groove;
+    border-radius: 10px;
+    background-color: rgb(139, 159, 198);
+}
+
+input{
+    height: 20px;
+    border-radius: 4px;
 }

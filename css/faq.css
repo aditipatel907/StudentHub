@@ -1,7 +1,38 @@
 .mainBody{
-    background-color: #a7b391;
+    background-color: #c6daee;
     color: black;
     padding: 20px;
     font-size: 18px;
-    
+            
+}
+
+.faq{
+    background-color: #c6daee;
+
+}
+.answer {
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.3s ease;
+    display: block;
+    margin-left: 15px;
+    background-color: white;
+    border: 1px solid #c6daee;
+    border-radius: 5px;
+    width: fit-content; 
+}
+
+#menuBtn {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    color: black
+}
+
+#navMenu {
+    display: none;
+}
+
+#navMenu.show {
+    display: block;
 }

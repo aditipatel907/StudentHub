@@ -2,67 +2,75 @@
 <html lang="en">
 <head>
     <title>Profile</title>
-    <link rel="stylesheet" href="C:\Users\aditi\OneDrive\Desktop\WebDev\css\common.css">
-        <link rel="stylesheet" href="C:\Users\aditi\OneDrive\Desktop\WebDev\css\profile.css">
+    <link rel="stylesheet" href="..\css\common.css">
+        <link rel="stylesheet" href="..\css\profile.css">
 </head>
 <body>
-     <div class="menu">
-        <a href="home.html" >HOME | </a>
-        <a href="about.html" >ABOUT&nbsp;|&nbsp; </a> 
-        <a href="events.html">EVENTS &nbsp;|&nbsp; </a>
-        <a href="contactUs.html">CONTACT &nbsp;|&nbsp; </a>
-        <a href="profile.html">PROFILE&nbsp; </a>
-        <a href="FAQ.html">|&nbsp; FAQs &nbsp;|&nbsp; </a>
-        <a href="placements.html">PLACEMENTS &nbsp;|&nbsp; </a>
-        <a href="login.html">LOGIN &nbsp;</a>
-    </div>
+    <button id="menuBtn">☰</button>
+    <button id="themeBtn">Change Theme</button>
+    
+    <ul id="navMenu">
+        <li><a href="home.html" >HOME </a></li>
+        <li><a href="about.html" >ABOUT    </a> </li>
+        <li><a href="events.html">EVENTS     </a></li>
+        <li><a href="contactUs.html">CONTACT     </a></li>
+        <li><a href="profile.html">PROFILE     </a></li>
+        <li><a href="FAQ.html"> FAQs     </a></li>
+        <li><a href="placements.html">PLACEMENTS     </a></li>
+        <li><a href="login.html">LOGIN  </a></li>
+        <li><a href="dashboard.html">DASHBOARD</a></li>
+    </ul>
     <div class="header"><h2>PROFILE</h2></div>
     <div class="mainBody">
-        Enrollment Id: __________<br><br>
-        Name: __________<br><br>
-        Department: __________<br><br>
+        Name: <span id="fullName"></span><br><br>
+        Enrollment ID: <span id="enrollId"></span><br><br>
+        Course: <span id="course"></span><br><br>
+        Semester: <span id="semester"></span><br><br>
     </div>
     <div class="subsection">STUDENT DETAILS</div> 
     <div class="mainBody">  
-        FirstName: __________<br><br>
-        Middle Name: __________<br><br>
-        LastName: __________<br><br>
-        Name to be displayed on the certificate: __________<br><br>
-        Enrollment Id: __________<br><br>
-        Department: __________<br><br>
+        FirstName:<span id="firstName"></span><br><br>
+        Middle Name: <span id="middleName"></span><br><br>
+        LastName: <span id="lastName"></span><br><br>
+        Name to be displayed on the certificate: <span id="fullName"></span><br><br>
+        Enrollment Id: <span id="enrollId"></span><br><br>
+        Department: <span id="dept"></span><br><br>
 
-        Date of Birth: __________<br><br>
-        Place of Birth: __________<br><br>
-        Current Address: __________<br><br>
-        Permanent Address: __________<br><br>
+        Date of Birth: <span id="dob"></span><br><br>
+        Place of Birth: <span id="birthPlace"></span><br><br>
+        Current Address: <span id="currAdd"></span><br><br>
+        Permanent Address: <span id="permAdd"></span><br><br>
 
-        Email Id: __________<br><br>
-        Contact Number: __________<br><br>  
-        ABC ID: __________<br><br>
-        Emergency Contact Number: __________<br><br>
+        Email Id: <span id="emailId"></span><br><br>
+        Contact Number: <span id="contactNo"></span><br><br>  
+        ABC ID: <span id="abcId"></span><br><br>
+        Emergency Contact Number: <span id="emergenyContact"></span><br><br>
 
-        <h4>For any changes in the above details, please contact the administrator.</h4><br>
     </div>
     
     <div class="subsection">PARENT/GUARDIAN DETAILS</div>
     <div class="mainBody">
-        Name of Parent/Guardian: __________<br><br>
-        Contact Number: __________<br><br>
-        Email Id: __________<br><br>
-        Occupation: __________<br><br>
-        Education: __________<br><br>
+        Name of Parent/Guardian: <span id="guardianName"></span><br><br>
+        Contact Number: <span id="guardianContact"></span><br><br>
+        Email Id: <span id="guardianEmail"></span><br><br>
+        Occupation: <span id="guardianOccupation"></span><br><br>
+        Education: <span id="guardianEdu"></span><br><br>
     </div>
 
-    <div class="subsection">COUNSELLOR DETAILS<div>
+
+    <div class="subsection">COUNSELLOR DETAILS</div>
     <div class="mainBody">
-        Name of Counsellor: _________<br><br>
-        Email Id: _________ <br><br>
-        Department: ____________ <br><br>
+        Name of Counsellor: <span id="counsellorName"></span><br><br>
+        Email Id: <span id="counsellorEmail"></span> <br><br>
+        Department: <span id="counsellorDept"></span> <br><br>
     </div>
+
+     <h4>For any changes in the above details, please contact the administrator.</h4><br>
+    <script src="../js/profile.js"></script>
     <footer>
         <b>Address:</b><br>
-        Scholar University 45 Knowledge Avenue,<br>Sector 12New Delhi,
+        Scholar University, 45 Knowledge Avenue,<br>Sector 12, New Delhi,
         <br>Delhi – 110078<br>
     </footer>
 </body>
-</html> 
+</html>

@@ -2,39 +2,46 @@
 <html>
 <head>
     <title>Login</title>
-    <link rel="stylesheet" href="C:\Users\aditi\OneDrive\Desktop\WebDev\css\common.css">
-    <link rel="stylesheet" href="C:\Users\aditi\OneDrive\Desktop\WebDev\css\login.css">
+    <link rel="stylesheet" href="..\css\common.css">
+    <link rel="stylesheet" href="..\css\login.css">
 </head>
 <body>
-    <div class="menu">
-        <a href="home.html" >HOME | </a>
-        <a href="about.html" >ABOUT&nbsp;|&nbsp; </a> 
-        <a href="events.html">EVENTS &nbsp;|&nbsp; </a>
-        <a href="contactUs.html">CONTACT &nbsp;|&nbsp; </a>
-        <a href="profile.html">PROFILE&nbsp; </a>
-        <a href="FAQ.html">|&nbsp; FAQs &nbsp;|&nbsp; </a>
-        <a href="placements.html">PLACEMENTS &nbsp;|&nbsp; </a>
-        </div>
+    <button id="menuBtn">☰</button>
+    <button id="themeBtn">Change Theme</button>
+    
+    <ul id="navMenu">
+        <li><a href="home.html" >HOME </a></li>
+        <li><a href="about.html" >ABOUT    </a> </li>
+        <li><a href="events.html">EVENTS     </a></li>
+        <li><a href="contactUs.html">CONTACT     </a></li>
+        <li><a href="profile.html">PROFILE     </a></li>
+        <li><a href="FAQ.html"> FAQs     </a></li>
+        <li><a href="placements.html">PLACEMENTS     </a></li>
+    </ul>
     <div class="header">
         <h2>LOGIN</h2>
         </div>
-
-<div class="mainBody">
+<br>
+<form id="loginForm">
+<div class="mainBody" id="mainBody">
     <br>
-    Enrollment Id: <input type="text" name="Enrollment Id" placeholder="Enter Enrollment Id"><br><br>
-    Password: <input type="password" name="Password" placeholder="Enter Password"><br><br>
+    Enrollment Id: <input id="enrollId" type="text" name="Enrollment Id" placeholder="Enter Enrollment Id"><br><br>
+    Password: <input id="password" type="password" name="Password" placeholder="Enter Password"><br><br>
     <input type="submit" value="Login"><br>
     <input type="reset" value="reset"><br><br>
     <a href="register.html" style="text-decoration: underline;">Click Here</a> to register.....<br><br>
 </div>
-
-    
+</form>
+<br>
+    <p id="message"></p>
 <footer>
     <b>Address:</b><br>
-    <h4>Scholar University 45 Knowledge Avenue,<br>Sector 12New Delhi,
+    <h4>Scholar University 45 Knowledge Avenue,<br>Sector 12, New Delhi,
     <br>Delhi – 110078<br>
 
     </h4>
 </footer>
 </body>
+<script src = "..\js\login.js"></script>
+<script src = "..\js\common.js"></script>
 </html>

@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "Technical Seminar",
+        "date": "2026-09-05",
+        "venue": "Seminar Hall",
+        "category": ["Technical","Seminar"],
+        "description": "Learn about the latest technologies from industry experts."
+    },
+    {
+        "id": 2,
+        "title": "XYZ Hackathon",
+        "date": "2026-09-10",
+        "venue": "Computer Lab",
+        "category": ["technical", "hackathon", "competitions"],
+        "description": "Build innovative solutions and showcase your coding skills."
+    },
+    {
+        "id": 3,
+        "title": "Web Development Workshop",
+        "date": "2026-09-15",
+        "venue": "Lab 3",
+        "category": ["Technical", "Workshop"],
+        "description": "Learn HTML, CSS and create your own webpages."
+    },
+    {
+        "id": 4,
+        "title": "Debate Competition",
+        "date": "2026-09-20",
+        "venue": "Seminar Hall",
+        "category": ["Non-Technical","cultural", "competitions"],
+        "description": "Participate in an engaging debate and showcase your communication and critical thinking skills."
+    },
+    {
+        "id": 5,
+        "title": "Cyber Security Workshop",
+        "date": "2026-09-25",
+        "venue": "Computer Lab",
+        "category": ["Technical","Workshop"],
+        "description": "Learn the basics of cyber security and online safety."
+    },
+    {
+        "id": 6,
+        "title": "Cultural Fest",
+        "date": "2026-09-28",
+        "venue": "Main Auditorium",
+        "category": ["Cultural", "competition","Non Technical"],
+        "description": "Celebrate creativity, culture and talent through various performances."
+    },
+    {
+        "id": 7,
+        "title": "AI and Technology Talk",
+        "date": "2026-10-03",
+        "venue": "Seminar Hall",
+        "category": ["Technical", "Seminar"],
+        "description": "Explore recent developments in artificial intelligence and technology."
+    },
+    {
+        "id": 8,
+        "title": "Sports Meet",
+        "date": "2026-10-08",
+        "venue": "University Ground",
+        "category": ["Sports", "Non-Technical"],
+        "description": "Participate in exciting sports competitions and activities."
+    },
+
+
+    {
+        "id": 9,
+        "title": "Entrepreneurship Seminar",
+        "date": "2026-10-12",
+        "venue": "Conference Hall",
+        "category": ["Seminars", "Non-Technical"],
+        "description": "Learn about entrepreneurship, startups and turning innovative ideas into successful ventures."
+    },
+
+    {
+        "id": 10,
+        "title": "UI/UX Design Workshop",
+        "date": "2026-10-17",
+        "venue": "Design Lab",
+        "category": ["Workshops", "Technical"],
+        "description": "Learn the fundamentals of user interface and user experience design through practical activities."
+    },
+
+    {
+        "id": 11,
+        "title": "Inter-College Quiz Competition",
+        "date": "2026-10-22",
+        "venue": "Main Auditorium",
+        "category": ["Competitions", "Non-Technical"],
+        "description": "Test your knowledge and compete with students from different colleges in an exciting quiz competition."
+    },
+
+    {
+        "id": 12,
+        "title": "Inter-University Badminton Tournament",
+        "date": "2026-10-27",
+        "venue": "Indoor Sports Complex",
+        "category": ["Sports", "Competitions"],
+        "description": "Compete against talented players from different universities in an exciting badminton tournament."
+    },
+
+    {
+        "id": 13,
+        "title": "Innovation and Technology Seminar",
+        "date": "2026-11-02",
+        "venue": "Seminar Hall",
+        "category": ["Technical", "Seminars"],
+        "description": "Discover emerging technologies and innovative ideas shaping the future."
+    }
+]

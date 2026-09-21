@@ -1,10 +1,35 @@
+.mainBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
 .entities{
-    background-color: #a7b391;
-    color: black;
-    margin: 10px;
+    display: flex;
+    left: 10px;
+    flex-direction: column;
+    border: 2px solid;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 75%;
+    margin: 10px auto;
     padding: 10px;
+    flex: 1 1 100px;
+    max-height: 500px;
+    overflow-y:scroll;
+    border-radius: 5px;
 }
 
+.entities label{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #040e2b;
+    color: white;
+    height: 30px;
+    display: block;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 5px;
+}
 table, th, td{
     border-width: 2px solid;
     border-color:black
@@ -13,6 +38,7 @@ table, th, td{
 th, td{
     height: 30px;
     width: 300px;
+    justify-content: center;
 }
 
 table{

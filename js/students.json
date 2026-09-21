@@ -1,0 +1,121 @@
+{
+    "25DCS075": {
+        "password": "25dcs075@123",
+        "firstName": "Aditi",
+        "middleName": "Kamleshkumar",
+        "lastName": "Patel",
+        "fullName": "Patel Aditi Kamleshkumar",
+        "enrollId": "25DCS075",
+        "dept": "Computer Science and Engineering",
+
+        "dob": "09/07/2007",
+        "birthPlace": "Vadodara",
+        "currAdd": "Dakor, Nadiad, Gujarat",
+        "permAdd": "Manjalpur, Vadodara, Gujarat",
+
+        "emailId": "aditi.patel@example.com",
+        "contactNo": "9876543210",
+        "abcId": "123456789012",
+        "emergencyContact": "9123456780",
+
+        "guardianName": "Kamleshkumar Patel",
+        "guardianContact": "9825012345",
+        "guardianEmail": "kmpatel@example.com",
+        "guardianOccupation": "Self-Employed",
+        "guardianEdu": "Bachelor's Degree",
+
+        "counsellorName": "Dr. Meera Shah",
+        "counsellorEmail": "meera.shah@example.com",
+        "counsellorDept": "Computer Science and Engineering"
+    },
+
+    "25DCS076": {
+        "password": "25dcs076@123",
+        "firstName": "Riya",
+        "middleName": "Mahesh",
+        "lastName": "Shah",
+        "fullName": "Riya Mahesh Shah",
+        "enrollId": "25DCS076",
+        "dept": "Computer Science and Engineering",
+
+        "dob": "14/03/2007",
+        "birthPlace": "Ahmedabad",
+        "currAdd": "Gotri, Vadodara, Gujarat",
+        "permAdd": "Navrangpura, Ahmedabad, Gujarat",
+
+        "emailId": "riya.shah@example.com",
+        "contactNo": "9898765432",
+        "abcId": "234567890123",
+        "emergencyContact": "9012345678",
+
+        "guardianName": "Mahesh Shah",
+        "guardianContact": "9812345678",
+        "guardianEmail": "mahesh.shah@example.com",
+        "guardianOccupation": "Accountant",
+        "guardianEdu": "Master's Degree",
+
+        "counsellorName": "Dr. Meera Shah",
+        "counsellorEmail": "meera.shah@example.com",
+        "counsellorDept": "Computer Science and Engineering"
+    },
+
+    "25DCS077": {
+        "password": "25dcs077@123",
+        "firstName": "Arjun",
+        "middleName": "Raj",
+        "lastName": "Mehta",
+        "fullName": "Arjun Raj Mehta",
+        "enrollId": "25DCS077",
+        "dept": "Computer Science and Engineering",
+
+        "dob": "22/11/2007",
+        "birthPlace": "Surat",
+        "currAdd": "Vasna, Vadodara, Gujarat",
+        "permAdd": "Adajan, Surat, Gujarat",
+
+        "emailId": "arjun.mehta@example.com",
+        "contactNo": "9765432109",
+        "abcId": "345678901234",
+        "emergencyContact": "9345678901",
+
+        "guardianName": "Rajiv Mehta",
+        "guardianContact": "9876501234",
+        "guardianEmail": "rajiv.mehta@example.com",
+        "guardianOccupation": "Engineer",
+        "guardianEdu": "Master's Degree",
+
+        "counsellorName": "Prof. Nilesh Desai",
+        "counsellorEmail": "nilesh.desai@example.com",
+        "counsellorDept": "Computer Science and Engineering"
+    },
+
+    "25DCS078": {
+        "password": "25dcs078@123",
+        "firstName": "Neha",
+        "middleName": "Suresh",
+        "lastName": "Joshi",
+        "fullName": "Neha Suresh Joshi",
+        "enrollId": "25DCS078",
+        "dept": "Computer Science and Engineering",
+
+        "dob": "05/01/2007",
+        "birthPlace": "Rajkot",
+        "currAdd": "Akota, Vadodara, Gujarat",
+        "permAdd": "Kalawad Road, Rajkot, Gujarat",
+
+        "emailId": "neha.joshi@example.com",
+        "contactNo": "9900123456",
+        "abcId": "456789012345",
+        "emergencyContact": "9234567890",
+
+        "guardianName": "Suresh Joshi",
+        "guardianContact": "9825123456",
+        "guardianEmail": "suresh.joshi@example.com",
+        "guardianOccupation": "Teacher",
+        "guardianEdu": "Master's Degree",
+
+        "counsellorName": "Prof. Nilesh Desai",
+        "counsellorEmail": "nilesh.desai@example.com",
+        "counsellorDept": "Computer Science and Engineering"
+    }
+}

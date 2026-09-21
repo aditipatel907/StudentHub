@@ -1,5 +1,26 @@
-img{
-    opacity: 0.8;
-    height: 600px;
-    width: auto;
+.slider {
+    text-align: center;
+    padding: 20px;
+}
+
+#slideImage {
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+    border: 2px solid;
+    overflow: hidden;
+}
+
+.slider button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#sportsSlideImage {
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+    border: 2px solid;
+    overflow: hidden;
 }

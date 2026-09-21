@@ -1,12 +1,3 @@
-.mainBody{
-    background-color: #a7b391;
-    color: black;
-    padding: 20px;
-    font-size: 18px;
-    text-align: center;
-    
-}
-
 .mainBody form textarea{
     height: 200px;
     width: 650px;

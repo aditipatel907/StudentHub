@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Welcome to Scholar University</title>
-        <link rel="stylesheet" href="C:\Users\aditi\OneDrive\Desktop\WebDev\css\common.css">
-        <link rel="stylesheet" href="C:\Users\aditi\OneDrive\Desktop\WebDev\css\home.css">
-    </head>
-    <body>
-        <div class="header">
-        <h1>SCHOLAR UNIVERSITY</h1>
-        </div>
+<head>
+    <title>Welcome to Scholar University</title>
 
-        <div class="menu">
-            <a href="home.html" >HOME &nbsp;|&nbsp;</a> 
-            <a href="about.html" >ABOUT &nbsp;|&nbsp;</a> 
-            <a href="events.html">EVENTS &nbsp;|&nbsp; </a>
-            <a href="contactUs.html">CONTACT &nbsp;|&nbsp; </a>
-            <a href="profile.html">PROFILE&nbsp; </a>
-            <a href="FAQ.html">|&nbsp; FAQs &nbsp;|&nbsp; </a>
-            <a href="placements.html">PLACEMENTS &nbsp;|&nbsp; </a>
-            <a href="login.html">LOGIN &nbsp;</a>
-        </div>
-        <img src="C:\Users\aditi\OneDrive\Desktop\WebDev\html\University.png" style="width: 100%;">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
 
-
-        <p style="text-indent:50px">  </p>
-
-
+    <button id="menuBtn">☰</button>
+    <button id="themeBtn">Change Theme</button>
     
-    <div>
+    <ul id="navMenu">
+
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="events.html">EVENTS</a></li>
+        <li><a href="contactUs.html">CONTACT</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="FAQ.html">FAQs</a></li>
+        <li><a href="placements.html">PLACEMENTS</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+
+    </ul>
+
+    <div class="header">
+        <h1>SCHOLAR UNIVERSITY</h1>
+    </div>
+
+    <div class="slider">
+        <img id="slideImage" src="../images/img1.png">
+        <br>
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+    </div>
+
+    <p style="text-indent:50px"></p>
+
     <footer>
         <b>Address:</b>
-        <h4>Scholar University, 45 - Knowledge Avenue,<br>Sector 12New Delhi,
-        <br>Delhi – 110078<br>
+        <h4>
+            Scholar University, 45 - Knowledge Avenue,<br>
+            Sector 12, New Delhi,<br>
+            Delhi – 110078
+        </h4>
     </footer>
-    </h4>
-    </div>
-    </body>
+
+    <script src="../js/home.js"></script>
+    <script src="../js/common.js"></script>
+
+</body>
 </html>

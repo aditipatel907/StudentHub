@@ -2,40 +2,136 @@
 <html>
 <head>  
     <title>About</title>
-    <link rel="stylesheet" href="C:\Users\aditi\OneDrive\Desktop\WebDev\css\common.css">
-    <link rel="stylesheet" href="C:\Users\aditi\OneDrive\Desktop\WebDev\css\about.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/about.css">
+
 </head> 
 <body> 
-    <div class="menu">
-        <a href="home.html" >HOME | </a>
-        <a href="about.html" >ABOUT&nbsp;|&nbsp; </a> 
-        <a href="events.html">EVENTS &nbsp;|&nbsp; </a>
-        <a href="contactUs.html">CONTACT &nbsp;|&nbsp; </a>
-        <a href="profile.html">PROFILE&nbsp; </a>
-        <a href="FAQ.html">|&nbsp; FAQs &nbsp;|&nbsp; </a>
-        <a href="placements.html">PLACEMENTS &nbsp;|&nbsp; </a>
-        <a href="login.html">LOGIN &nbsp;</a>
-    </div>
+    <button id="menuBtn">☰</button>
+    <button id="themeBtn">Change Theme</button>
+    
+    <ul id="navMenu">
+        <li><a href="home.html" >HOME </a></li>
+        <li><a href="events.html">EVENTS     </a></li>
+        <li><a href="contactUs.html">CONTACT     </a></li>
+        <li><a href="profile.html">PROFILE     </a></li>
+        <li><a href="FAQ.html"> FAQs     </a></li>
+        <li><a href="placements.html">PLACEMENTS     </a></li>
+        <li><a href="login.html">LOGIN  </a></li>
+    </ul>
+
     <div class="header">
         <h2>ABOUT</h2>
     </div>
     
-    <div class="mainBody">
-        <p>At Scholar University, we are committed to fostering innovation, knowledge, and holistic growth. Established with a vision to 
-        empower students through world-class education, we combine academic excellence with practical experience to prepare future 
-        leaders. Our diverse community of learners and educators thrives on collaboration, creativity, and integrity, ensuring that every 
-        student is equipped not only with skills but also with values to make a meaningful impact in society.With a strong emphasis on 
-        academic excellence, practical learning, and global perspectives, we prepare our graduates to thrive in an ever-changing world. 
-        Beyond academics, we foster values of integrity, inclusivity, and social responsibility, ensuring that our students not only 
-        succeed professionally but also contribute meaningfully to society.</p>  
+    <div id="modal" class="modal">
+        <div class="modal-content">
+
+            <span id="closeModal">&times;</span>
+
+            <h2>Admission Information</h2>
+
+            <p>
+                Applications for undergraduate programs are now open.
+                Please check the admissions page for more details.
+            </p>
+
+        </div>
     </div>
     
-    
+    <div class="container">
+        <div class="image">
+            <img src="../images/img2.jpg">
+        </div>
+
+        <div class="content">
+            <h2>Scholar University</h2>
+            <p>
+                At Scholar University, we are committed to fostering innovation, knowledge, and holistic growth. Established with a vision to 
+            empower students through world-class education, we combine academic excellence with practical experience to prepare future 
+            leaders. Our diverse community of learners and educators thrives on collaboration, creativity, and integrity, ensuring that every 
+            student is equipped not only with skills but also with values to make a meaningful impact in society.With a strong emphasis on 
+            academic excellence, practical learning, and global perspectives, we prepare our graduates to thrive in an ever-changing world. 
+            Beyond academics, we foster values of integrity, inclusivity, and social responsibility, ensuring that our students not only 
+            succeed professionally but also contribute meaningfully to society.</p>  
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2>CULTURAL ASPECTS</h2>
+            <p>
+                At [University Name], culture is at the heart of our identity and community. We celebrate diversity by embracing traditions, 
+                languages, and perspectives from across the globe, creating an environment where every student feels valued and included. 
+                Our campus thrives on cultural exchange through festivals, art exhibitions, literary events, and student-led initiatives that 
+                highlight the richness of heritage and creativity. By fostering respect, collaboration, and cross-cultural understanding, 
+                we prepare our students to become global citizens who appreciate the interconnectedness of societies. Beyond academics, our 
+                cultural life nurtures creativity, unity, and lifelong friendships, ensuring that the university experience is both intellectually 
+                enriching and socially vibrant.</p> 
+                
+            <p>From the dazzling Cultural Fiesta that lights up the campus with music, dance, and drama, to the thought-provoking Literary 
+                Conclave where ideas flow as freely as creativity, our events are designed to inspire and engage. Students eagerly await the 
+                vibrant International Food Festival, a celebration of flavors from around the world, and the energetic Sports Carnival that 
+                brings out the spirit of teamwork and competition. Annual highlights like TechSpark and ArtVision showcase innovation and artistry, 
+                while Unity Week fosters inclusivity and cross-cultural bonding. Each event is more than just a gathering—it’s a tradition that 
+                adds color, excitement, and unforgettable memories to university life.</p>
+        </div>
+
+        <div class="image">
+            <div class="slider">
+                <img id="slideImage" src="../images/cultural1.jpg">
+                <br>
+                <button id="prev">Previous</button>
+                <button id="next">Next</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2>SPORTS ACTIVITIES</h2>
+            <p>
+                Sports at [University Name] are more than just games—they are a way of life that instills discipline, teamwork, and resilience 
+                in every student. Our sprawling athletic facilities provide the perfect setting for training and competition, while our dedicated 
+                coaches nurture talent and encourage excellence. From cricket pitches to basketball courts, football fields to indoor arenas, the 
+                campus offers opportunities for both recreational play and professional-level performance. Participation in sports is woven into the 
+                student experience, ensuring a balance between academic rigor and physical well-being.</p> 
+                
+            <p>The university calendar is packed with thrilling events that bring the campus alive with energy and spirit. Annual highlights include 
+                the Inter-University Sports Meet, where athletes showcase their skills across multiple disciplines, and the electrifying Athletics 
+                Championship that crowns the fastest and strongest on campus. The much-loved Cricket League and Basketball Showdown draw enthusiastic 
+                crowds, while the Fitness Challenge Week inspires students to push their limits. These events not only celebrate sporting talent but 
+                also foster camaraderie, healthy competition, and unforgettable memories that define the vibrant sports culture of our university.</p>
+        </div>
+
+        <div class="image">
+            <div class="slider">
+                <img id="sportsSlideImage" src="../images/sports1.jpg"><br>
+                <button id="sportsPrev">Previous</button>
+                <button id="sportsNext">Next</button>
+            </div>
+        </div>
+
+    </div>  
+
+
+</div>
+
+
+    <div id="admissionBox">
+        <h3>Admissions Open!</h3>
+        <p>Apply now for undergraduate programs.</p>
+        <button id="openModal">Apply Now</button>
+    </div>
+
     <footer>
         <b>Address:</b><br>
-        Scholar University 45 Knowledge Avenue,<br>Sector 12New Delhi,
+        Scholar University 45 Knowledge Avenue,<br>Sector 12, New Delhi,
         <br>Delhi – 110078<br>
     </footer>
-
 </body>
+    <script src="../js/about.js"></script>
+    <script src="../js/common.js"></script>
 </html>

@@ -1,7 +1,112 @@
-.mainBody{
-    background-color: #a7b391;
-    color: black;
+section {
+    padding: 25px;
+}
+
+#events h2 {
+    text-align: center;
+    background-color: #174a7e;
+    color: rgb(244, 255, 129);
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+#registration h2 {
+    text-align: center;
+    background-color: #174a7e;
+    color: rgb(244, 255, 129);
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.event-card {
+    background-color: white;
+    width: 250px;
+    min-height: 250px;
     padding: 20px;
-    font-size: 18px;
-    
+    border: 5px;
+    border-style:groove;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.event-card h3 {
+    color: #174a7e;
+}
+
+.event-card:hover {
+    background-color: #e8f2ff;
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d3155;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.gender {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+body.dark .event-card{
+    background-color: #494949;
+    color: white;
+}
+
+body.dark #events h2{
+    background-color: black;
+    color: white;
+}
+
+body.dark .event-card h3{
+    color: white;
+    width: fit-content;
 }

@@ -1,7 +1,26 @@
-.mainBody{
-    background-color: #a7b391;
-    color: black;
-    padding: 20px;
-    font-size: 18px;
-    
+
+span{
+    background-color: #ffffff;
+}
+
+h4{
+    margin: 20px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(139, 159, 198);
+}
+
+#menuBtn {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    color: black
+}
+
+#navMenu {
+    display: none;
+}
+
+#navMenu.show {
+    display: block;
 }

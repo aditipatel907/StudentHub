@@ -2,49 +2,86 @@
 <html>
 <head>
     <title>Frequently Asked Questions</title>
-    <link rel="stylesheet" href="C:\Users\aditi\OneDrive\Desktop\WebDev\css\common.css">
-    <link rel="stylesheet" href="C:\Users\aditi\OneDrive\Desktop\WebDev\css\faq.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/faq.css">
 
 </head>
 <body>
-    <div class="menu">
-        <a href="home.html" >HOME | </a>
-        <a href="about.html" >ABOUT&nbsp;|&nbsp; </a> 
-        <a href="events.html">EVENTS &nbsp;|&nbsp; </a>
-        <a href="contactUs.html">CONTACT &nbsp;|&nbsp; </a>
-        <a href="profile.html">PROFILE&nbsp; </a>
-        <a href="FAQ.html">|&nbsp; FAQs &nbsp;|&nbsp; </a>
-        <a href="placements.html">PLACEMENTS &nbsp;|&nbsp; </a>
-        <a href="login.html">LOGIN &nbsp;</a>
-    </div>
+    <button id="menuBtn">☰</button>
+    <button id="themeBtn">Change Theme</button>
+    <ul id="navMenu">
+        <li><a href="home.html" >HOME </a></li>
+        <li><a href="about.html" >ABOUT    </a> </li>
+        <li><a href="events.html">EVENTS     </a></li>
+        <li><a href="contactUs.html">CONTACT     </a></li>
+        <li><a href="profile.html">PROFILE     </a></li>
+        <li><a href="placements.html">PLACEMENTS     </a></li>
+        <li><a href="login.html">LOGIN  </a></li>
+    </ul>
     <div class="header">
-            <h2>FREQUENTLY ASKED QUESTIONS</h2>
-        </div>
+        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+    </div>
 
     <div class="mainBody">
-        Q: What are the eligibility criteria for undergraduate programs?  <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;A: Applicants must have completed their higher secondary education (Class 12 or equivalent) 
-        with the required minimum marks in relevant subjects. Specific requirements vary by program and are listed in the admissions brochure.
-        <br><br>
-        Q: How can I apply for admission?  <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;A: You can apply online through our official website by filling out the application form and submitting the 
-        required documents. <br><br>
-        Q: What is the application deadline?  <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;A: The application deadline for undergraduate programs is typically in the month of June. Please check the 
-        admissions page for specific dates. <br><br>
-        Q: Are there any scholarships available?  <br>          
-        &nbsp;&nbsp;&nbsp;&nbsp;A: Yes, we offer a range of scholarships based on academic merit, financial need, and extracurricular.
-        <br><br>
-        Q: How can I find information about scholarships?  <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;A: Information about scholarships, including eligibility criteria and application process, can be found on the 
-        scholarships page of our website.    
-        <br><br>
-        <h3>Details can be found on the scholarships page of our website. <br></h3>
+
+        <div class="faq">
+            Q: What are the eligibility criteria for undergraduate programs?<button class="question">v</button>
+            <div class="answer">
+                A: Applicants must have completed their higher secondary education
+                (Class 12 or equivalent) with the required minimum marks in relevant
+                subjects. Specific requirements vary by program and are listed in
+                the admissions brochure.
+            </div>
+        </div>
+
+        <div class="faq">
+            Q: How can I apply for admission?<button class="question">v</button>
+
+            <div class="answer">
+                A: You can apply online through our official website by filling out
+                the application form and submitting the required documents.
+            </div>
+        </div>
+
+        <div class="faq">
+            Q: What is the application deadline?<button class="question">v</button>
+
+            <div class="answer">
+                A: The application deadline for undergraduate programs is typically
+                in the month of June. Please check the admissions page for specific
+                dates.
+            </div>
+        </div>
+
+        <div class="faq">
+            Q: Are there any scholarships available?<button class="question">v</button>
+          
+            <div class="answer">
+                A: Yes, we offer a range of scholarships based on academic merit,
+                financial need, and extracurricular activities.
+            </div>
+        </div>
+
+        <div class="faq">
+            Q: How can I find information about scholarships?<button class="question">v</button>
+
+            <div class="answer">
+                A: Information about scholarships, including eligibility criteria
+                and the application process, can be found on the scholarships page
+                of our website.
+            </div>
+        </div>
+
+        <h3>
+            Details can be found on the scholarships page of our website.
+        </h3>
+
     </div>
-    
+    <script src="../js/faq.js"></script>
+    <script src="../js/common.js"></script>
     <footer>
         <b>Address:</b><br>
-        Scholar University 45 Knowledge Avenue,<br>Sector 12New Delhi,
+        Scholar University 45 Knowledge Avenue,<br>Sector 12, New Delhi,
         <br>Delhi – 110078<br>
     </footer>
 
