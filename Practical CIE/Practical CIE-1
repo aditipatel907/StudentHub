@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Event & Help Desk</title>
+    <style>
+    
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f5f8;
+        }
+
+        header {
+            background-color: #00006b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 5px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color:#fafafa;
+            color: #00006b;
+        }
+
+
+        section {
+            padding: 25px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #174a7e;
+        }
+
+        .event-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .event-card {
+            background-color: white;
+            width: 250px;
+            min-height: 250px;
+            padding: 20px;
+            border: 2px solid;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .event-card h3 {
+            color: #174a7e;
+        }
+
+        .event-card:hover {
+            background-color: #e8f2ff;
+        }
+
+        button {
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0d3155;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            margin: auto;
+            padding: 25px;
+            background-color: white;
+            border: 2px solid;
+            border-radius: 10px;
+        }
+
+        form label {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        select {
+            padding: 10px;
+            border: 1px solid;
+            border-radius: 5px;
+        }
+
+        .gender {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+
+        .form-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .faq-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .faq-item {
+            background-color: white;
+            width: 400px;
+            padding: 15px;
+            border: 2px solid #174a7e;
+            border-radius: 8px;
+        }
+
+        .faq-item h3 {
+            color: #174a7e;
+        }
+
+        .faq-item p {
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+
+        footer {
+            background-color: #174a7e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>CHARUSAT</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#events">Events</a>
+            <a href="#registration">Registration</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+
+        <div class="event-container">
+
+            <div class="event-card">
+                <h3>Technical Seminar</h3>
+                <p><b>Date:</b> 5 September 2026</p>
+                <p><b>Venue:</b> Seminar Hall</p>
+                <p>Learn about the latest technologies from industry experts.</p>
+                <button>Register Now</button>
+            </div>
+
+            <div class="event-card">
+                <h3>Hackathon</h3>
+                <p><b>Date:</b> 10 September 2026</p>
+                <p><b>Venue:</b> Computer Lab</p>
+                <p>Build innovative solutions and showcase your coding skills.</p>
+                <button>Register Now</button>
+            </div>
+
+            <div class="event-card">
+                <h3>Web Development Workshop</h3>
+                <p><b>Date:</b> 15 September 2026</p>
+                <p><b>Venue:</b> Lab 3</p>
+                <p>Learn HTML, CSS and create your own webpages.</p>
+                <button>Register Now</button>
+            </div>
+
+            <div class="event-card">
+                <h3>Project Exhibition</h3>
+                <p><b>Date:</b> 20 September 2026</p>
+                <p><b>Venue:</b> Exhibition Hall</p>
+                <p>Explore creative and innovative student projects.</p>
+                <button>Register Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="registration">
+        <h2>Event Registration</h2>
+
+        <form>
+
+            Student Name:
+            <input type="text" placeholder="Enter your name">
+
+            Student ID:
+            <input type="text" placeholder="Enter your student ID">
+
+            Email:
+            <input type="email" placeholder="Enter your email">
+
+            Mobile Number:
+            <input type="tel" placeholder="Enter mobile number">
+
+            Select Event:
+            <select>
+                <option>Technical Seminar</option>
+                <option>Hackathon</option>
+                <option>Web Development Workshop</option>
+                <option>Project Exhibition</option>
+            </select>
+
+            Gender:
+
+            <div class="gender">
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Other
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </div>
+
+        </form>
+    </section>
+
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-container">
+
+            <div class="faq-item">
+                <h3>How can I register for an event?</h3>
+                <p>You can register by filling out the registration form given above.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Is event registration free?</h3>
+                <p>Yes, registration for all college events is free.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Where will the event be conducted?</h3>
+                <p>The venue of each event is mentioned in its event card.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I participate in more than one event?</h3>
+                <p>Yes, students can participate in multiple events if the timings do not clash.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>\copy 2026 Student Events</p>
+        <p>CHARUSAT, Anand</p>
+    </footer>
+
+</body>
+</html>
