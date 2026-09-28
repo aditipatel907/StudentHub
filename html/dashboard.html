@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="..\css\common.css">
-    <link rel="stylesheet" href="..\css\dashboard.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
 </head>
 <body>
     <button id="menuBtn">☰</button>
@@ -26,29 +27,38 @@
   <div class="mainBody">  
     <div class="entities">
         <label>BASIC DETAILS</label>
-        Enrollment Id: __________<br><br>
-        Name: __________<br><br>
-        Department: __________<br><br>
+
+        <div class="details">
+            <p><b>Enrollment Id:</b> <span id="enrollId"></span></p>
+            <p><b>Name:</b> <span id="fullName"></span></p>
+            <p><b>Department:</b> <span id="dept"></span></p>
+        </div>
     </div>
 
     <div class="entities">
-        <label>ATTENDANCE</label>
-    WDF: __________<br><br>
-    OOPS: __________<br><br>
-    DSA: __________<br><br>
-    FCN: __________<br><br>
-    DM: __________<br><br>
-        Overall Attendance: __________<br><br>
+    <label>ATTENDANCE</label>
+
+    <div class="details">
+        <p><b>WDF:</b> <span id="wdf"></span></p>
+        <p><b>OOPS:</b> <span id="oops"></span></p>
+        <p><b>DSA:</b> <span id="dsa"></span></p>
+        <p><b>FCN:</b> <span id="fcn"></span></p>
+        <p><b>DM:</b> <span id="dm"></span></p>
+        <p><b>Overall Attendance:</b> <span id="overallAttendance"></span></p>
     </div>
+</div>
 
     <div class="entities">
-        <label>ACADEMIC PERFORMANCE</label>
-    WDF: __________<br><br>
-    OOPS: __________<br><br>
-    DSA: __________<br><br>
-    FCN: __________<br><br>
-    DM: __________<br><br>
-    Overall Performance: __________<br><br>
+        <label>IMPORTANT NOTICES</label>
+
+        <div class="details">
+            <ul>
+                <li>WDF Practical 7 submission is due soon.</li>
+                <li>Internal examination registration is now open.</li>
+                <li>Students are requested to check their attendance regularly.</li>
+                <li>Update your profile details if any information has changed.</li>
+            </ul>
+        </div>
     </div>
     
     <div class="entities">
@@ -68,6 +78,7 @@
 </div>
     
         <script src="../js/common.js"></script>
+        <script src="../js/dashboard.js"></script>
         <footer>
         <b>Address:</b><br>
         <h4>Scholar University 45 Knowledge Avenue,<br>Sector 12, New Delhi,

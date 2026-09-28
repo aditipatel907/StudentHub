@@ -50,3 +50,20 @@ table{
     background-color: #a7b391;
     text-align: center;
 }
+
+.details {
+    padding: 10px;
+}
+
+.details p {
+    margin: 12px 0;
+}
+
+ul{
+    background-color: #c6daee;
+}
+ul li{
+    background-color:  #c6daee;
+    color: black;
+    padding: 5px;
+}

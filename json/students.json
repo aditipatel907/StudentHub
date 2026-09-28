@@ -1,5 +1,5 @@
-{
-    "25DCS075": {
+[
+    {
         "password": "25dcs075@123",
         "firstName": "Aditi",
         "middleName": "Kamleshkumar",
@@ -7,6 +7,7 @@
         "fullName": "Patel Aditi Kamleshkumar",
         "enrollId": "25DCS075",
         "dept": "Computer Science and Engineering",
+        "semester": 3,
 
         "dob": "09/07/2007",
         "birthPlace": "Vadodara",
@@ -26,10 +27,18 @@
 
         "counsellorName": "Dr. Meera Shah",
         "counsellorEmail": "meera.shah@example.com",
-        "counsellorDept": "Computer Science and Engineering"
+        "counsellorDept": "Computer Science and Engineering",
+
+        "attendance": {
+            "WDF": 85,
+            "OOPS": 90,
+            "DSA": 78,
+            "FCN": 88,
+            "DM": 82
+        }
     },
 
-    "25DCS076": {
+    {
         "password": "25dcs076@123",
         "firstName": "Riya",
         "middleName": "Mahesh",
@@ -37,6 +46,7 @@
         "fullName": "Riya Mahesh Shah",
         "enrollId": "25DCS076",
         "dept": "Computer Science and Engineering",
+        "semester": 3,
 
         "dob": "14/03/2007",
         "birthPlace": "Ahmedabad",
@@ -56,10 +66,18 @@
 
         "counsellorName": "Dr. Meera Shah",
         "counsellorEmail": "meera.shah@example.com",
-        "counsellorDept": "Computer Science and Engineering"
+        "counsellorDept": "Computer Science and Engineering",
+
+        "attendance": {
+            "WDF": 68,
+            "OOPS": 74,
+            "DSA": 78,
+            "FCN": 80,
+            "DM": 79
+        }
     },
 
-    "25DCS077": {
+    {
         "password": "25dcs077@123",
         "firstName": "Arjun",
         "middleName": "Raj",
@@ -67,6 +85,7 @@
         "fullName": "Arjun Raj Mehta",
         "enrollId": "25DCS077",
         "dept": "Computer Science and Engineering",
+        "semester": 3,
 
         "dob": "22/11/2007",
         "birthPlace": "Surat",
@@ -86,10 +105,18 @@
 
         "counsellorName": "Prof. Nilesh Desai",
         "counsellorEmail": "nilesh.desai@example.com",
-        "counsellorDept": "Computer Science and Engineering"
+        "counsellorDept": "Computer Science and Engineering",
+
+        "attendance": {
+            "WDF": 74,
+            "OOPS": 79,
+            "DSA": 82,
+            "FCN": 88,
+            "DM": 90
+        }
     },
 
-    "25DCS078": {
+    {
         "password": "25dcs078@123",
         "firstName": "Neha",
         "middleName": "Suresh",
@@ -97,6 +124,7 @@
         "fullName": "Neha Suresh Joshi",
         "enrollId": "25DCS078",
         "dept": "Computer Science and Engineering",
+        "semester": 3,
 
         "dob": "05/01/2007",
         "birthPlace": "Rajkot",
@@ -116,6 +144,14 @@
 
         "counsellorName": "Prof. Nilesh Desai",
         "counsellorEmail": "nilesh.desai@example.com",
-        "counsellorDept": "Computer Science and Engineering"
+        "counsellorDept": "Computer Science and Engineering",
+
+        "attendance": {
+            "WDF": 65,
+            "OOPS": 44,
+            "DSA": 70,
+            "FCN": 75,
+            "DM": 83
+        }
     }
-}
+]

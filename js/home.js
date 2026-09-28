@@ -31,12 +31,3 @@ if (slideImage && nextBtn && prevBtn) {
         slideImage.src = images[index];
     });
 }
-
-let themeBtn = document.getElementById("themeBtn");
-
-if (themeBtn) {
-    themeBtn.addEventListener("click", function() {
-        document.body.classList.toggle("dark");
-    });
-
-}

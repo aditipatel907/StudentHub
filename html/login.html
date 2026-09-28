@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="..\css\common.css">
     <link rel="stylesheet" href="..\css\login.css">
@@ -22,14 +23,14 @@
         <h2>LOGIN</h2>
         </div>
 <br>
-<form id="loginForm">
+<form id="loginForm" method="POST" action="/StudentHub/php/login.php">
 <div class="mainBody" id="mainBody">
     <br>
-    Enrollment Id: <input id="enrollId" type="text" name="Enrollment Id" placeholder="Enter Enrollment Id"><br><br>
-    Password: <input id="password" type="password" name="Password" placeholder="Enter Password"><br><br>
+    Enrollment Id: <input id="enrollId" type="text" name="enrollId" placeholder="Enter Enrollment Id" required><br><br>
+    Password: <input id="password" type="password" name="password" placeholder="Enter Password" required><br><br>
     <input type="submit" value="Login"><br>
     <input type="reset" value="reset"><br><br>
-    <a href="register.html" style="text-decoration: underline;">Click Here</a> to register.....<br><br>
+    <a href="register.html"></a>Click Here</a> to register.....<br><br>
 </div>
 </form>
 <br>
