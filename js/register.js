@@ -2,8 +2,6 @@ let form = document.getElementById("registerForm");
 
 form.addEventListener("submit", function(event) {
 
-    event.preventDefault();
-
     let firstName = document.getElementById("firstName").value;
     let lastName = document.getElementById("lastName").value;
     let email = document.getElementById("email").value;
@@ -67,6 +65,6 @@ form.addEventListener("submit", function(event) {
         return;
     }
 
-    alert("Registration successful!");
+    form.submit();
 
 });

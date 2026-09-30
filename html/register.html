@@ -33,89 +33,69 @@
     <br>
 
 
-    <form id="registerForm">
+    <form id="registerForm" method="POST" action="../php/register.php">
 
         <div class="mainBody">
 
             <br>
             First Name:
-            <input type="text" id="firstName" name="firstName"
-                   placeholder="Enter first name">
+            <input type="text" id="firstName" name="firstName" placeholder="Enter first name" required>
             <br><br>
 
             Last Name:
-            <input type="text" id="lastName" name="lastName"
-                   placeholder="Enter last name">
+            <input type="text" id="lastName" name="lastName" placeholder="Enter last name" required>
             <br><br>
 
             Email:
-            <input type="email" id="email" name="email"
-                   placeholder="E-mail ID">
+            <input type="email" id="email" name="email" placeholder="E-mail ID" required>
             <br><br>
 
             Mobile:
-            <input type="tel" id="mobile" name="mobile"
-                   placeholder="Enter mobile number">
+            <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile number" required>
             <br><br>
 
             Password:
-            <input type="password" id="password" name="password"
-                   placeholder="Enter password">
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
             <br><br>
 
             Confirm Password:
-            <input type="password" id="confirmPassword"
-                   name="confirmPassword"
-                   placeholder="Enter same password">
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Enter same password" required>
             <br><br>
 
-
             Course:
-            <select id="course" name="course">
-
+            <select id="course" name="course" required>
                 <option value="">Select Course</option>
                 <option value="cse">CSE</option>
                 <option value="ece">ECE</option>
                 <option value="it">IT</option>
-
             </select>
-
             <br><br>
 
-
-            Year:
-            <select id="year" name="year">
+            Year of Study:
+            <select id="year" name="year" required>
 
                 <option value="">Select Year</option>
                 <option value="1">1st Year</option>
                 <option value="2">2nd Year</option>
                 <option value="3">3rd Year</option>
                 <option value="4">4th Year</option>
-
             </select>
-
             <br><br>
 
-
             Gender:
-            <input type="radio" name="gender" value="male">
+            <input type="radio" name="gender" value="male" required>
             Male
             <input type="radio" name="gender" value="female">
             Female
             <input type="radio" name="gender" value="other">
             Other
-
             <br><br>
-
-            <input type="checkbox" id="terms" name="terms">
+            <input type="checkbox" id="terms" name="terms" required>
             I accept the terms and conditions.
             <br><br>
-
             <input type="submit" value="Register">
             <input type="reset" value="Reset">
-
             <br><br>
-
             <a href="login.html">Click Here</a> to Log In.
 
         </div>

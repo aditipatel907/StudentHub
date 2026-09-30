@@ -1,0 +1,13 @@
+[
+    {
+        "regNo": 1,
+        "firstName": "Reha",
+        "lastName": "Shah",
+        "email": "rehashah@gmail.com",
+        "mobile": "6875491231",
+        "password": "abcde@123",
+        "course": "cse",
+        "year": "1",
+        "gender": "female"
+    }
+]
