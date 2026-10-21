@@ -68,3 +68,25 @@ form.addEventListener("submit", function(event) {
     form.submit();
 
 });
+
+document.getElementById("registerForm").addEventListener("submit", function (e) {
+    const password = document.getElementById("password").value;
+    const confirmPassword = document.getElementById("confirmPassword").value;
+
+    if (password.length < 8) {
+        e.preventDefault();
+        alert("Password must contain at least 8 characters.");
+        return;
+    }
+
+    if (!/[A-Za-z]/.test(password) || !/[0-9]/.test(password)) {
+        e.preventDefault();
+        alert("Password must contain a letter and a number.");
+        return;
+    }
+
+    if (password !== confirmPassword) {
+        e.preventDefault();
+        alert("Passwords do not match.");
+    }
+});
