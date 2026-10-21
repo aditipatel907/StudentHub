@@ -55,30 +55,38 @@
     <section id="registration">
         <h2>Event Registration</h2><br>
 
-        <form>
+        <form method="POST" action="../php/event_register.php">
 
             Student Name:
-            <input type="text" placeholder="Enter your name">
+            <input type="text" name="student_name" placeholder="Enter your name">
 
             Student ID:
-            <input type="text" placeholder="Enter your student ID">
+            <input type="text" name="student_id" value="3" placeholder="Enter your student ID">
 
             Email:
-            <input type="email" placeholder="Enter your email">
+            <input type="email" name="email" placeholder="Enter your email">
 
             Mobile Number:
-            <input type="tel" placeholder="Enter mobile number">
+            <input type="tel" name="mobile" placeholder="Enter mobile number">
 
             Select Event:
-            <select>
-                <option>Technical Seminar</option>
-                <option>Hackathon</option>
-                <option>Web Development Workshop</option>
-                <option>Project Exhibition</option>
+            <select name="event_id">
+                <option value="1">Technical Seminar</option>
+                <option value="2">Hackathon</option>
+                <option value="3">Web Development Workshop</option>
+                <option value="4">Debate Competition</option>
+                <option value="5">Cyber Security Workshop</option>
+                <option value="6">Cultural Fest</option>
+                <option value="7">AI and Technology Talk</option>
+                <option value="8">Sports Meet</option>
+                <option value="9">Entrepreneurship Seminar</option>
+                <option value="10">UI/UX Design Workshop</option>
+                <option value="11">Inter-College Quiz Competition</option>
+                <option value="12">Inter-University Badminton Tournament</option>
+                <option value="13">Innovation and Technology Seminar</option>
             </select>
 
             Gender:
-
             <div class="gender">
                 <input type="radio" name="gender"> Male
                 <input type="radio" name="gender"> Female

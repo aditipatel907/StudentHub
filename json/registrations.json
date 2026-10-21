@@ -9,5 +9,16 @@
         "course": "cse",
         "year": "1",
         "gender": "female"
+    },
+    {
+        "regNo": 2,
+        "firstName": "Riya",
+        "lastName": "Patel",
+        "email": "riya.patel@gmail.com",
+        "mobile": "7845136266",
+        "password": "$2y$10$r8y0naUH..k\/XidjYeUPZedE3.OX15PHMNReufotlZIzMkjmVfQaO",
+        "course": "ece",
+        "year": "3",
+        "gender": "female"
     }
 ]
