@@ -1,56 +1,55 @@
-<?php
 
-session_start();
+<?php
+require_once "db.php";
+require_once "auth.php";
+
+if ($_SERVER["REQUEST_METHOD"] !== "POST") {
+    header("Location: ../html/login.html");
+    exit;
+}
 
 $enrollId = trim($_POST["enrollId"] ?? "");
-$password = trim($_POST["password"] ?? "");
-$file = "../json/students.json";
+$password = $_POST["password"] ?? "";
 
 if ($enrollId === "" || $password === "") {
-    echo "Please enter Enrollment ID and Password.";
-    exit;
+    exit("Please enter Enrollment ID and Password.");
 }
 
-if (!file_exists($file)) {
-    echo "Student data file not found.";
-    exit;
+$stmt = $conn->prepare(
+    "SELECT student_id, name, email, enrollment_no, password, role
+     FROM students
+     WHERE enrollment_no = ?"
+);
+
+$stmt->execute([$enrollId]);
+$student = $stmt->fetch(PDO::FETCH_ASSOC);
+
+if (
+    !$student ||
+    !password_verify($password, $student["password"])
+) {
+    http_response_code(401);
+    exit(
+        'Invalid Enrollment ID or Password. ' .
+        '<a href="../html/login.html">Try Again</a>'
+    );
 }
 
-$jsonData = file_get_contents($file);
-$students = json_decode($jsonData, true);
+// Prevent session fixation after successful login.
+session_regenerate_id(true);
 
-if ($students === null) {
-    echo "Error reading student data.";
-    exit;
-}
+$_SESSION["student_id"] = $student["student_id"];
+$_SESSION["name"] = $student["name"];
+$_SESSION["email"] = $student["email"];
+$_SESSION["enrollId"] = $student["enrollment_no"];
+$_SESSION["role"] = $student["role"];
+$_SESSION["last_activity"] = time();
 
-$loginSuccessful = false;
-$studentName = "";
-
-foreach ($students as $student) {
-
-    if ($student["enrollId"] === $enrollId) {
-
-        if ($student["password"] === $password) {
-            $_SESSION["student"] = $student;
-            $loginSuccessful = true;
-            $studentName = $student["fullName"];
-        }
-
-        break;
-    }
-}
-
-if ($loginSuccessful) {
-    echo "Redirecting to dashboard...";
-    header("Location: ../html/dashboard.html");
-    exit;
-
+if ($student["role"] === "admin") {
+    header("Location: admin_dashboard.php");
 } else {
-
-    echo "<h2>Login Failed</h2>";
-    echo "<p>Invalid Enrollment ID or Password.</p>";
-    echo '<a href="../html/login.html">Try Again</a>';
+    header("Location: dashboard.php");
 }
 
+exit;
 ?>
